@@ -12,8 +12,9 @@
 
 以下是一些在此项目中可能会用到的常用命令：
 
-- 启动Jupyter笔记本：
-  ```bash
+```bash
+  git config --global user.name "TowerLong"
+  git config --global user.email jacklongscut@gmail.com
   git config --global core.editor "vim"
   
 
@@ -23,4 +24,3 @@
   conda install -c conda-forge torch
 
   jupyter notebook --notebook-dir=$PWD
-```
