@@ -14,6 +14,10 @@
 
 - 启动Jupyter笔记本：
   ```bash
+  git config --global core.editor "vim"
+  
+
+
   conda install -c conda-forge matplotlib
   conda install -c conda-forge tensorflow
   conda install -c conda-forge torch
